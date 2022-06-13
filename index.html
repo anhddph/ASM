@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
-</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="max-w-6xl mx-auto ">
+        <div class="font-bold py-5 text-lg">
+            <ul class="flex justify-end space-x-5 text-[20px]">
+                <li><a href="">Works</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="flex grid-cols-2 gap-8 grid mt-20 mb-12 justify-items-end">
+            <div>
+                <h2 class="text-[44px] font-bold text-[#21243D]"> <span class="mb-3 inline-block">Hi, I am Duy Anh,</span> <br>
+                    <span>Creative Technologist</span>
+                </h2>
+                <p class="py-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="border-1 bg-red-400 px-2 p-2 text-white font-bold">Download Resume</button>
+            </div>
+            <div>
+                <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654235050/Ellipse_1_n7wyiy.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#EDF7FA] h-[400px]">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex justify-between py-5">
+                <h2 class="text-lg">Recent posts</h2>
+                <button class="text-blue-500">View all</button>
+            </div>
+            <div class=" grid grid-cols-2 gap-8 ">
+                <div class="bg-white h-[280px] p-5 ">
+                    <h2 class="font-bold text-[26px] text-[#21243D]">Making a design system from <br> scratch</h2>
+                    <div class="py-5 text-[18px] space-x-5">
+                        <span>12 Feb 2020</span>
+                        <span>|</span>
+                        <span>Design, Pattern</span>
+                    </div>
+                    <p class="text-[16px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="bg-white h-[280px] p-5  ">
+                    <h2 class="font-bold text-[26px] text-[#21243D]">Creating pixel perfect icons in <br> Figma</h2>
+                    <div class="py-5 text-[18px] space-x-5">
+                        <span>12 Feb 2020</span>
+                        <span>|</span>
+                        <span>Design, Pattern</span>
+                    </div><p class="text-[16px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                      officia consequat
+                      duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="max-w-6xl mx-auto">
+      <h2 class="py-5 text-xl">Featured works</h2>
+      <div>
+          <div class="flex">
+              <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654235050/Rectangle_30_mlb7re.jpg"
+                  alt="">
+              <div class="">
+                  <h2 class="font-bold text-2xl pl-5 text-[#21243D]" >Designing Dashboards</h2>
+                  <div class="ml-5 mt-5 space-x-5">
+                      <span class="rounded-xl bg-[#142850] text-white px-3 font-bold ">2020</span>
+                      <span class="text-[#8695A4]">Dashboard</span>
+                  </div>
+                  <p class="pl-5 pt-6 text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                      sint. Velit <br> officia consequat
+                      duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.</p>
+              </div>
+          </div>
+      </div>
+      <hr class="bg-gray-500 mt-7 mb-7">
+      <div class="mt-10">
+          <div class="flex">
+              <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654235050/Rectangle_32_ro15bh.jpg"
+                  alt="">
+              <div class="">
+                  <h2 class="font-bold text-2xl pl-5 text-[#21243D]">Vibrant Portraits of 2020</h2>
+                  <div class="ml-5 mt-5 space-x-5">
+                      <span class="rounded-xl bg-[#142850] text-white px-3 font-bold ">2020</span>
+                      <span class="text-[#8695A4]">Dashboard</span>
+                  </div>
+                  <p class="ml-5 mt-6 text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                      sint. Velit <br> officia consequat
+                      duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.</p>
+              </div>
+          </div>
+      </div>
+      <hr class="bg-gray-500 mt-7 mb-7">
+      <div>
+          <div class="flex">
+              <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654235050/Rectangle_34_d2ctbi.jpg"
+                  alt="">
+              <div class="">
+                  <h2 class="font-bold text-2xl pl-5 text-[#21243D]">36 Days of Malayalam type</h2>
+                  <div class="ml-5 mt-5 space-x-5">
+                      <span class="rounded-xl bg-[#142850] text-white px-3 font-bold">2020</span>
+                      <span class="text-[#8695A4]">Dashboard</span>
+                  </div>
+                  <p class="ml-5 mt-6 text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit <br> officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="bg-gray-500 mt-7 mb-7">
+</div>
+<div class="bg-white mx-auto mt-40 mb-16">
+    <div class="flex justify-center space-x-8">
+        <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654264600/fb_g06wlc.png" alt="">
+        <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654264600/insta_pntnfw.png" alt="">
+        <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654264600/Group_w7uubs.png" alt="">
+        <img src="https://res.cloudinary.com/ho-ng-t-ng/image/upload/v1654264600/Linkedin_jlmden.png" alt="">
+    </div>
+    <p class="text-center mt-5">Copyright ©2020 All rights reserved </p>
+</div>
+</body>
+
+</html> 
